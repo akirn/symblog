@@ -11,4 +11,10 @@ class PageController extends Controller
     {
         return $this->render('BloggerBlogBundle:Page:index.html.twig');
     }
+
+    public function aboutAction()
+    {
+        return $this->render('BloggerBlogBundle:Page:about.html.twig');
+    }
 }
+
