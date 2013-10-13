@@ -1,4 +1,4 @@
 Symfony2 Blog
 ========================
 
-Reviewing some concepts based on a tutorial at http://tutorial.symblog.co.uk/.
+Building a simple blog based on the tutorial at http://tutorial.symblog.co.uk/, with some fixes and improvements.
