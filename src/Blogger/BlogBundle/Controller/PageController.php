@@ -57,5 +57,21 @@ class PageController extends Controller
 	        'form' => $form->createView()
 	    ));
 	}
+
+    public function sidebarAction()
+    {
+        $em = $this->getDoctrine()
+                   ->getManager();
+
+        $tags = $em->getRepository('BloggerBlogBundle:Blog')
+                   ->getTags();
+
+        $tagWeights = $em->getRepository('BloggerBlogBundle:Blog')
+                         ->getTagWeights($tags);
+
+        return $this->render('BloggerBlogBundle:Page:sidebar.html.twig', array(
+            'tags' => $tagWeights
+        ));
+    }
 }
 
