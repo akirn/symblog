@@ -18,7 +18,7 @@ BloggerBlogBundle_contact:
         _method:  GET|POST
 
 BloggerBlogBundle_blog_show:
-    pattern:  /{id}
+    pattern:  /{id}/{slug}
     defaults: { _controller: BloggerBlogBundle:Blog:show }
     requirements:
         _method:  GET
@@ -32,4 +32,4 @@ BloggerBlogBundle_comment_create:
         blog_id: \d+
 
 
-        
+
