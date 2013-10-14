@@ -2,7 +2,8 @@
 /app/bootstrap.php.cache
 /app/cache/*
 /app/logs/*
-/vendor/
+/app/DoctrineMigrations/*
 /app/config/parameters.yml
+/vendor/
 /src/Blogger/BlogBundle/Resources/config/*
 /composer.lock
