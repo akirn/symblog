@@ -9,3 +9,4 @@
 /src/Blogger/BlogBundle/Resources/config/*
 /composer.lock
 /app/Resources/java/
+/phpunit-report/
