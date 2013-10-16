@@ -1,5 +1,4 @@
 <?php
-// src/Blogger/BlogBundle/Entity/Blog.php
 
 namespace Blogger\BlogBundle\Entity;
 
